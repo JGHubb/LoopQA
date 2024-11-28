@@ -8,7 +8,7 @@ test.beforeEach(async ({ page }) => {
 
   let iteration: number = 1;
   data.forEach((keyword)=>{
-    test(`Validate Test Case ${iteration++}`, async ({ page, basePage, projectPage }) => {
+    test(`Validate Test Case ${iteration++}`, {tag:"@Regression"},async ({ page, basePage, projectPage }) => {
     console.log(`\nTEST DATA = `)
     console.log(keyword)
 

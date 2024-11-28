@@ -45,7 +45,7 @@ export class ProjectPage {
             isCardPresent = true
             let tagsInCard: Locator = this.page.locator(`div.BoardCardLayout div.BoardCardLayout-contentAboveSubtasks div.BoardCardLayout-customPropertiesAndTags`).nth(index)
             let random:string[]= ((await tagsInCard.allInnerTexts()).at(0)).split('\n')
-            console.log("ACTUAL TAGS PRESENT: " + random)
+            console.log("ACTUAL TAGS PRESENT: [" + random + "]")
             tags.forEach(tag=>expect(random.includes(tag)).toBeTruthy())
             break;
           }
