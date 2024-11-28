@@ -1,0 +1,40 @@
+[
+    {
+        "NavigateTo":"Cross-functional project plan, Project",
+        "Card":"Draft project brief",
+        "Column":"To do",
+        "CardTags":["Non-Priority", "On track"]
+    },
+    {
+        "NavigateTo":"Cross-functional project plan, Project",
+        "Card":"Schedule kickoff meeting",
+        "Column":"To do",
+        "CardTags":[ "Medium", "At risk"]
+    },
+    {
+        "NavigateTo":"Cross-functional project plan, Project",
+        "Card":"Share timeline with teammates",
+        "Column":"To do",
+        "CardTags":["High", "Off track"]
+    },
+    {
+        "NavigateTo": "Work Requests",
+        "Card":"[Example] Laptop setup for new hire",
+        "Column": "New Requests",
+        "CardTags":["Medium priority", "Low effort", "New hardware", "Not Started"]
+    },
+    {
+        "NavigateTo":"Work Requests",
+        "Card":"[Example] Password not working",
+        "Column":"In Progress",
+        "CardTags":["Low effort", "Low priority", "Password reset", "Waiting"]
+    },
+
+
+    {
+        "NavigateTo":"Work Requests",
+        "Card": "[Example] New keycard for Daniela V",
+        "Column":"Completed",
+        "CardTags":[ "Low effort", "New hardware", "High Priority", "Done"]
+    }
+]
